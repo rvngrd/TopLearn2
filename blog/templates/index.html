@@ -1,11 +1,48 @@
 {% extends 'base.html' %}
 
 {% block title %}
-My Blog
+    My Blog
 {% endblock %}
 
 {% block content %}
-    <h1>
-    Welcome To My Blog
-    </h1>
+    <header id="main-navigation">
+        <h1><a href="">Iman's Blog</a></h1>
+        <nav>
+            <a href="">All Posts</a>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <header>
+            <img src="" alt="Iman - Author of this blog">
+            <h2>Iman's Blog Project</h2>
+        </header>
+        <p>Hi, My name is Iman, I'm a student of computer engineering</p>
+    </section>
+
+    <section id="latest-post">
+        <h2>Latest Posts</h2>
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="Learning Django">
+                        <div class="post__content">
+                            <h3>Learning Django</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Atque dolore dolorem, enim hic porro saepe!
+                            </p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I love programming</p>
+    </section>
+
 {% endblock %}

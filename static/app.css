@@ -1,0 +1,18 @@
+* {                        /* selects all html elements */
+    box-sizing: border-box;/* fix padding problem:https://www.w3schools.com/css/css3_box-sizing.asp */
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}

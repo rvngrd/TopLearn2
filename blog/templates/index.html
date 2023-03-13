@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block header_refrences %}
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
+{% endblock %}
+
 
 {% block title %}
     My Blog

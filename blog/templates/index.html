@@ -23,34 +23,9 @@
     <section id="latest-posts">
         <h2>Latest Posts</h2>
         <ul>
-            <li>
-                <article class="post">
-                    <a href="">
-                        <img src="{% static 'blog/images/django.png' %}" alt="Learning Django">
-                        <div class="post__content">
-                            <h3>Learning Django</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Atque dolore dolorem, enim hic porro saepe!
-                            </p>
-                        </div>
-                    </a>
-                </article>
-            </li>
-            <li>
-                <article class="post">
-                    <a href="">
-                        <img src="{% static 'blog/images/django.png' %}" alt="Learning Django">
-                        <div class="post__content">
-                            <h3>Learning Django</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Atque dolore dolorem, enim hic porro saepe!
-                            </p>
-                        </div>
-                    </a>
-                </article>
-            </li>
+            {% include 'includes/post.html' %}
+            {% include 'includes/post.html' %}
+            {% include 'includes/post.html' %}
         </ul>
     </section>
 

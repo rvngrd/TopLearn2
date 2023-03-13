@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    My Blog
+{% endblock %}
+
+{% block header_refrences %}
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
+{% endblock %}
+
+{% block content %}
+    <section id="all-posts">
+        <h2>This is all posts</h2>
+
+    </section>
+{% endblock %}
